@@ -72,7 +72,7 @@
                 "cd",
                 fs::path_abs(path),
                 "&& .venv_altdoc\\Scripts\\activate.bat",
-                "&& python3 -m mkdocs build -q"
+                "&& .venv_altdoc\\Scripts\\python.exe -m mkdocs build -q"
             )
         )
     } else {
